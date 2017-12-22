@@ -431,7 +431,7 @@ a[data-lightbox]:hover img{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
+	font-family: 'cwTeXFangSong', serif;
 }
 .container{
 	max-width:1170px;
@@ -447,13 +447,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:5%;
 }
 .mount-italy-hero-text{
-	font-family:"Josefin Sans";
+	font-family: 'cwTeXFangSong', serif;
 	font-size:60px;
 	font-weight:bold;
 	text-shadow:0px 3px 8px rgba(0,0,0,0.2);
 }
 .mount-italy-hero-text-sub{
-	font-family:"Josefin Sans";
+	font-family: 'cwTeXFangSong', serif;
 	font-size:36px;
 }
 .hero-text-vc{
@@ -702,4 +702,3 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:0px;
 }
  }
-

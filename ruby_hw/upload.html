@@ -58,6 +58,9 @@
 							<li>
 								<a href="register.html">register</a>
 							</li>
+							<li>
+								<a href="profile.html">profile</a>
+							</li>
 						</ul>
 					</div>
 				</nav>
@@ -71,16 +74,22 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<form>
-							<div class="form-group ">
-								<label for="upload_picture">Upload picture</label>
-								<input type="file" class="form-control-file" id="upload_picture">
+							<div class="form-group">
+								<label for="upload_image">Upload Image</label>
+								<input type="file" class="form-control-file" id="upload_image">
+								<img src="img/mountains-italy.jpg" alt="Chania" width="460" height="345"> 
 							</div>
 						</form>
-						<img src="" class="img-responsive" />
 					</div>
 					<div class="col-sm-6">
+						<label for="upload_title">Title</label>
 						<p class="mg-lg">
-							<textarea class="form-control" rows="5" id="descripe" placeholder="Descripe"></textarea>
+							<input class="form-control" id="upload_title" placeholder="Title">
+							</textarea>
+						</p>
+						<label for="Descripe">Descripe</label>
+						<p class="mg-lg">
+							<textarea class="form-control" rows="5" id="Descripe" placeholder="Descripe"></textarea>
 						</p>
 						<a href="gallery.html" class="btn btn-d btn-lg">Upload</a>
 					</div>
