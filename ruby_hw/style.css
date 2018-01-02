@@ -388,9 +388,12 @@ a[data-lightbox]:hover img{
 	width:90%;
 	max-width:900px;
 	margin:30px auto 0;
+	height:900px;
 }
 #lightbox-modal .modal-dialog img{
-	margin: 0 auto;
+	margin: 0 auto 70px;	
+	max-height:700px;
+	position:center;
 }
 .lightbox-caption{
 	padding: 20px;
